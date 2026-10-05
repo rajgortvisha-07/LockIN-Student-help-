@@ -1,0 +1,189 @@
+/* ================================
+   GENERAL
+================================ */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+
+/* ================================
+   LOGIN PAGE
+================================ */
+
+.login-page {
+    background-color: #f8f9fa;
+}
+
+
+
+/* ================================
+   LOGIN CARD
+================================ */
+
+.login-card {
+    width: 100%;
+    max-width: 430px;
+
+    padding: 35px;
+
+    background-color: #ffffff;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+
+/* ================================
+   LOGO
+================================ */
+
+.logo-icon {
+    font-size: 45px;
+}
+
+
+
+/* ================================
+   INPUTS
+================================ */
+
+.form-control {
+    padding: 10px 12px;
+
+    border-radius: 8px;
+}
+
+
+
+/* ================================
+   BUTTON
+================================ */
+
+.btn-primary {
+    background-color: #0d6efd;
+
+    border-color: #0d6efd;
+
+    padding: 10px;
+
+    border-radius: 8px;
+}
+
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 767px) {
+
+    .login-card {
+        margin: 20px;
+
+        padding: 25px;
+    }
+
+}
+/* ================================
+   DASHBOARD
+================================ */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.navbar-brand {
+    font-size: 21px;
+}
+
+.nav-link {
+    margin-left: 10px;
+}
+
+.card-title {
+    color: #212529;
+}
+/* ================================
+   TODO PAGE
+================================ */
+
+.task-list-item {
+    background-color: #ffffff;
+}
+
+.form-check-input {
+    cursor: pointer;
+}
+
+.task-list-item button {
+    margin-left: 5px;
+}
+/* ================================
+   PROGRESS PAGE
+================================ */
+
+.chart-container {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 450px;
+
+    height: 350px;
+
+    margin: auto;
+}
+/* -----------------------------
+   Final Project Polish
+----------------------------- */
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 8px;
+}
+
+/* Task items */
+.border.rounded {
+    background-color: #ffffff;
+}
+
+/* Responsive spacing */
+@media (max-width: 767px) {
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .navbar-brand {
+        font-size: 19px;
+    }
+}
